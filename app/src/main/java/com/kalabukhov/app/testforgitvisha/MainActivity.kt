@@ -13,7 +13,9 @@ class MainActivity : AppCompatActivity() {
         return "Hey"
     }
 
-    private fun sum(v1: Int, v2: Int): Int {
-        return v1 + v2
+    private fun sum(v1: Int,v2: Int): Int {
+        val vc1 = v1 + 1
+        val vc2 = v2 + 1
+        return vc1 + vc2
     }
 }
