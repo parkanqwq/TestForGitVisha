@@ -18,4 +18,8 @@ class MainActivity : AppCompatActivity() {
         val vc2 = v2 + 1
         return vc1 + vc2
     }
+
+    private fun text3() {
+
+    }
 }
