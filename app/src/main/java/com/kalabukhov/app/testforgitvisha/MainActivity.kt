@@ -12,4 +12,8 @@ class MainActivity : AppCompatActivity() {
     private fun anyFun(): String {
         return "Hey"
     }
+
+    private fun sum(v1: Int, v2: Int): Int {
+        return v1 + v2
+    }
 }
